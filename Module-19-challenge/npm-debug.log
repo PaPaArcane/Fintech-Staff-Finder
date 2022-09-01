@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/admin/opt/anaconda3/envs/dev/bin/node',
+1 verbose cli   '/Users/admin/opt/anaconda3/envs/dev/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'web3/usr/bin/python3',
+1 verbose cli   '/Users/admin/Desktop/Module-19-challenge/fintech_finder.py' ]
+2 info using npm@3.10.10
+3 info using node@v6.13.1
+4 verbose config Skipping project config: /Users/admin/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData web3/usr/bin/python3
+9 silly fetchPackageMetaData /Users/admin/Desktop/Module-19-challenge/fintech_finder.py
+10 silly fetchOtherPackageData web3/usr/bin/python3
+11 silly cache add args [ 'web3/usr/bin/python3', null ]
+12 verbose cache add spec web3/usr/bin/python3
+13 silly fetchOtherPackageData /Users/admin/Desktop/Module-19-challenge/fintech_finder.py
+14 silly cache add args [ '/Users/admin/Desktop/Module-19-challenge/fintech_finder.py',
+14 silly cache add   null ]
+15 verbose cache add spec /Users/admin/Desktop/Module-19-challenge/fintech_finder.py
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'web3/usr/bin/python3',
+16 silly cache add   scope: null,
+16 silly cache add   escapedName: null,
+16 silly cache add   name: null,
+16 silly cache add   rawSpec: 'web3/usr/bin/python3',
+16 silly cache add   spec: '/Users/admin/Desktop/Module-19-challenge/web3/usr/bin/python3',
+16 silly cache add   type: 'local' }
+17 silly cache add parsed spec Result {
+17 silly cache add   raw: '/Users/admin/Desktop/Module-19-challenge/fintech_finder.py',
+17 silly cache add   scope: null,
+17 silly cache add   escapedName: null,
+17 silly cache add   name: null,
+17 silly cache add   rawSpec: '/Users/admin/Desktop/Module-19-challenge/fintech_finder.py',
+17 silly cache add   spec: '/Users/admin/Desktop/Module-19-challenge/fintech_finder.py',
+17 silly cache add   type: 'local' }
+18 error addLocal Could not install /Users/admin/Desktop/Module-19-challenge/web3/usr/bin/python3
+19 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/admin/Desktop/Module-19-challenge/web3/usr/bin/python3'
+19 silly fetchPackageMetaData     at Error (native)
+19 silly fetchPackageMetaData  error for web3/usr/bin/python3 { Error: ENOENT: no such file or directory, open '/Users/admin/Desktop/Module-19-challenge/web3/usr/bin/python3'
+19 silly fetchPackageMetaData     at Error (native)
+19 silly fetchPackageMetaData   errno: -2,
+19 silly fetchPackageMetaData   code: 'ENOENT',
+19 silly fetchPackageMetaData   syscall: 'open',
+19 silly fetchPackageMetaData   path: '/Users/admin/Desktop/Module-19-challenge/web3/usr/bin/python3' }
+20 silly addLocalTarball shasum (computed) 374268b3ee5995b1626434e5f366e9967bf287b6
+21 verbose addTmpTarball /Users/admin/Desktop/Module-19-challenge/fintech_finder.py not in flight; adding
+22 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+23 verbose addTmpTarball validating metadata from /Users/admin/Desktop/Module-19-challenge/fintech_finder.py
+24 verbose tar unpack /Users/admin/Desktop/Module-19-challenge/fintech_finder.py
+25 verbose tar unpacking to /var/folders/nn/y89klcps5vq4tmm5h8x98czc0000gn/T/npm-84097-346c688e/unpack-c405e290
+26 silly gentlyRm /var/folders/nn/y89klcps5vq4tmm5h8x98czc0000gn/T/npm-84097-346c688e/unpack-c405e290 is being purged
+27 verbose gentlyRm don't care about contents; nuking /var/folders/nn/y89klcps5vq4tmm5h8x98czc0000gn/T/npm-84097-346c688e/unpack-c405e290
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 error not a package /Users/admin/Desktop/Module-19-challenge/fintech_finder.py
+30 error addLocal Could not install /Users/admin/Desktop/Module-19-challenge/fintech_finder.py
+31 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/nn/y89klcps5vq4tmm5h8x98czc0000gn/T/npm-84097-346c688e/unpack-c405e290/package.json'
+31 silly fetchPackageMetaData     at Error (native)
+31 silly fetchPackageMetaData  error for /Users/admin/Desktop/Module-19-challenge/fintech_finder.py { Error: ENOENT: no such file or directory, open '/var/folders/nn/y89klcps5vq4tmm5h8x98czc0000gn/T/npm-84097-346c688e/unpack-c405e290/package.json'
+31 silly fetchPackageMetaData     at Error (native)
+31 silly fetchPackageMetaData   errno: -2,
+31 silly fetchPackageMetaData   code: 'ENOENT',
+31 silly fetchPackageMetaData   syscall: 'open',
+31 silly fetchPackageMetaData   path: '/var/folders/nn/y89klcps5vq4tmm5h8x98czc0000gn/T/npm-84097-346c688e/unpack-c405e290/package.json' }
+32 silly rollbackFailedOptional Starting
+33 silly rollbackFailedOptional Finishing
+34 silly runTopLevelLifecycles Finishing
+35 silly install printInstalled
+36 verbose stack Error: ENOENT: no such file or directory, open '/Users/admin/Desktop/Module-19-challenge/web3/usr/bin/python3'
+36 verbose stack     at Error (native)
+37 verbose cwd /Users/admin/Desktop/Module-19-challenge
+38 error Darwin 21.6.0
+39 error argv "/Users/admin/opt/anaconda3/envs/dev/bin/node" "/Users/admin/opt/anaconda3/envs/dev/bin/npm" "install" "web3/usr/bin/python3" "/Users/admin/Desktop/Module-19-challenge/fintech_finder.py"
+40 error node v6.13.1
+41 error npm  v3.10.10
+42 error path /Users/admin/Desktop/Module-19-challenge/web3/usr/bin/python3
+43 error code ENOENT
+44 error errno -2
+45 error syscall open
+46 error enoent ENOENT: no such file or directory, open '/Users/admin/Desktop/Module-19-challenge/web3/usr/bin/python3'
+47 error enoent ENOENT: no such file or directory, open '/Users/admin/Desktop/Module-19-challenge/web3/usr/bin/python3'
+47 error enoent This is most likely not a problem with npm itself
+47 error enoent and is related to npm not being able to find a file.
+48 verbose exit [ -2, true ]
